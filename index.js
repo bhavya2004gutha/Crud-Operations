@@ -1,4 +1,4 @@
- const rowsPerPage = 1;
+ const rowsPerPage = 3;
   let currentPage = 1;
   let doctors = [];
 
