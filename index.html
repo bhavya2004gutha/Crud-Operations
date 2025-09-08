@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital Management</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div>
+    <h1>Hospital Management</h1>
+    <div class="forms">
+      <input type="text" placeholder="Doctor Name" id="docName">
+      <input type="text" placeholder="Doctor Specialization" id="docSpecialization">
+      <input type="text" placeholder="Doctor Qualification" id="docQualification">
+      <input type="text" placeholder="Doctor Experience" id="docExperience">
+      <input type="text" placeholder="Doctor Age" id="docAge">
+      <button class="click" onclick="addDoctor()">Add Doctor</button>
+    </div>
+  </div>
+
+  <table id="doctorTable">
+    <thead>
+      <tr class="header">
+        <th>Name</th>
+        <th>Specialization</th>
+        <th>Qualification</th>
+        <th>Experience</th>
+        <th>Age</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="index.js"></script>
+</body>
+</html>
